@@ -82,6 +82,7 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 function displayMenu(menuItems) {
+	// o metodo de array map irá gerar um novo array com o tamanho do array que faz referência
 	let displayMenu = menuItems.map(function (item) {
 		return `<article class="menu-item">
 					<img src="${item.img}" alt="${item.title}" class="photo" />
